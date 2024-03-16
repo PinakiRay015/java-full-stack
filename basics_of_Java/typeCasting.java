@@ -10,8 +10,8 @@ public class typeCasting {
         System.out.println(num2);
 
         //explicit type casting i.e. from bigger to smaller
-        long num3 = 123;
-        int num4 = (int)num3;
+        double num3 = 123.67;
+        int num4 = (int)num3; //output will be 123 instead of 123.67 which is data loss
 
         System.out.println(num4);
 
