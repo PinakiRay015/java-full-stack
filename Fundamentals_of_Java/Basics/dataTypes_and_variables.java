@@ -1,4 +1,4 @@
-package basics_of_Java;
+package Fundamentals_of_Java.Basics;
 
 import java.util.Date;
 

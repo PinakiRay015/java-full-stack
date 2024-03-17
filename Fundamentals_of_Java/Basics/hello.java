@@ -1,4 +1,4 @@
-package basics_of_Java;
+package Fundamentals_of_Java.Basics;
 
 public class hello {
     public static void main(String[] args) {

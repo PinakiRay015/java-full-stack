@@ -1,5 +1,5 @@
 //type casting in java
-package basics_of_Java;
+package Fundamentals_of_Java.Basics;
 
 public class typeCasting {
     public static void main(String[] args)
