@@ -1,5 +1,7 @@
 package Fundamentals_of_Java.Arrays_And_Strings;
 
+import java.util.Locale;
+
 public class Strings {
     public static void main(String[] args) {
         String string = "Rohan Ray"; //normal declaration
@@ -13,5 +15,8 @@ public class Strings {
         System.out.println(string.trim()); //removes any leading and trailing white spaces
         System.out.println(string.concat(string1)); //concat two strings
         System.out.println(string.indexOf('a')); //returns the index position of the character
+        System.out.println(string.substring(1 , 6)); //returns the sub-string of a string from beginner(index) to ending(exclusive)
+        System.out.println(string.toUpperCase()); //converts the string to uppercase;
+        System.out.println(string.toLowerCase()); //converts the string to lowercase;
     }
 }
