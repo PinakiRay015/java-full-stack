@@ -10,7 +10,7 @@ class accountInfo
 
     long getAccNumber()
     {
-        return this.accNumber;
+        return accNumber;
     }
 
     void setAccNumber(long accNumber)
