@@ -34,10 +34,10 @@ class accountInfo
         this.amount = amount;
     }
 }
-public class backAccount extends accountInfo {
+public class backAccount {
     public static void main(String[] args)
     {
-        backAccount myAccount = new backAccount();
+        accountInfo myAccount = new accountInfo();
         myAccount.setAccNumber(5768949);
         myAccount.setName("Pinaki sankar ray");
         myAccount.setAmount(150450.50f);
