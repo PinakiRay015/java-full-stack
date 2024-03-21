@@ -9,6 +9,11 @@ class android
          System.out.println("Based on android 14");
     }
 
+    public android(int modelNumber)
+    {
+        System.out.println("Model number is "+modelNumber);
+    }
+
     //function to display the model name
     public void modelName()
     {
@@ -20,6 +25,9 @@ public class sample {
         // Creating an object of the Android class
         // The constructor is automatically called upon object creation
         android android = new android();
+
+        //calling the parameterized constructor
+        new android(56748);
         // Calling the modelName method
         android.modelName();
     }
