@@ -5,11 +5,11 @@ package Fundamentals_of_Java.Object_Oriented_Programming.constructors;
 class android
 {
     //constructor.(It should be of same name as of class)
-     public android() {
+     public android() {   //default constructor
          System.out.println("Based on android 14");
     }
 
-    public android(int modelNumber)
+    public android(int modelNumber)   //parameterized constructor
     {
         System.out.println("Model number is "+modelNumber);
     }
