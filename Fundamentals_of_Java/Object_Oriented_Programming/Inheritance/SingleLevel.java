@@ -15,7 +15,7 @@ class Samsung extends android
         System.out.println("Gives 6000 Mah battery support");
     }
 }
-public class mobile {
+public class SingleLevel {
     public static void main(String[] args) {
         Samsung samsung = new Samsung();
         samsung.os();
